@@ -1,13 +1,23 @@
 <?php
 class Client {
-private $name;
-private $surname;
-function __construct($name, $surname){
-    $this->name=$name;
-    $this->surname = $surname;
+private $lastname;
+private $firstname;
+function __construct($lastname, $firstname){
+    $this->lastname=$lastname;
+    $this->firstname = $firstname;
+}
+public function getlastname(){
+    return $this->lastname;
+}
+
+public function getfirstname(){
+    return $this -> firstname;
+}    
+
+public function getData(){
+    return ["gilles","pantoufle"];
 }
 
 }
 
 
-?>
