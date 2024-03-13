@@ -3,7 +3,7 @@ class Client {
 private $lastname;
 private $firstname;
 function __construct($lastname, $firstname){
-    $this->lastname=$lastname;
+    $this->lastname = $lastname;
     $this->firstname = $firstname;
 }
 public function getlastname(){
@@ -11,10 +11,10 @@ public function getlastname(){
 }
 
 public function getfirstname(){
-    return $this -> firstname;
+    return $this->firstname;
 }    
 
-public function getData(){
+public function getPantoufle(){
     return ["gilles","pantoufle"];
 }
 
